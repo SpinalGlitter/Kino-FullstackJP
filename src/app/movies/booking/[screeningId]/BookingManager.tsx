@@ -66,13 +66,12 @@ export default function BookingManager({ screeningId }: BookingManagerProps) {
 
   useEffect(() => {
     const fetchData = async () => {
-      const baseUrl = process.env.NEXT_PUBLIC_BASE_URL ?? 'http://localhost:3000';
-      const res = await fetch(`${baseUrl}/api/movies/booking/${screeningId}`, {
+      const res = await fetch(`/api/movies/booking/${screeningId}`, {
         cache: 'no-store',
       });
 
       if (!res.ok) {
-        console.error('Kunde inte ladda bokningsdata');
+        console.error('not able to fetch booking data');
         return;
       }
 

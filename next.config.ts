@@ -11,7 +11,7 @@ const nextConfig: NextConfig = {
      
       {
         protocol: 'https',
-        hostname: 'Kino-FullstackJP*.vercel.app', 
+        hostname: 'Kino-Fullstack-jp*.vercel.app', 
         pathname: '/**',
       },
     ],

@@ -1,7 +1,6 @@
 "use client";
 
 import { useState } from "react";
-import Image from "next/image";
 import type { TicketButtonProps } from "./types/TicketButton.types";
 
 export default function TicketButton({
@@ -38,7 +37,7 @@ export default function TicketButton({
           className="flex items-center justify-center w-8 h-8 bg-kino-darkred rounded-md cursor-pointer"
           aria-label="Decrease quantity"
         >
-          <Image src="/minus-icon.svg" alt="Decrease" width={14} height={14} />
+          <img src="/minus-icon.svg" alt="Decrease" width={14} height={14} />
         </button>
         <div className="w-10 h-8 mx-2 flex items-center justify-center border">
           {count}
@@ -48,7 +47,7 @@ export default function TicketButton({
           className="flex items-center justify-center w-8 h-8 bg-kino-darkred rounded-md cursor-pointer"
           aria-label="Increase quantity"
         >
-          <Image src="/plus-icon.svg" alt="Increase" width={14} height={14} />
+          <img src="/plus-icon.svg" alt="Increase" width={14} height={14} />
         </button>
       </div>
     </div>

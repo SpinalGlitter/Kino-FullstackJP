@@ -48,7 +48,7 @@ export default function TicketButton({
           className="flex items-center justify-center w-8 h-8 bg-kino-darkred rounded-md cursor-pointer"
           aria-label="Increase quantity"
         >
-          <Image src="/plus-icon.svg" alt="Decrease" width={14} height={14} />
+          <Image src="/plus-icon.svg" alt="Increase" width={14} height={14} />
         </button>
       </div>
     </div>

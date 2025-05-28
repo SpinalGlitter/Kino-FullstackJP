@@ -71,7 +71,7 @@ export default function BookingManager({ screeningId }: BookingManagerProps) {
       });
 
       if (!res.ok) {
-        console.error('not able to fetch booking data');
+        console.error('Not able to fetch booking data');
         return;
       }
 

@@ -1,5 +1,5 @@
-import Types from "mongoose";
-import mongoose, { Schema } from "mongoose";
+import mongoose, { Schema, Types } from "mongoose";
+
 interface ISeat {
   _id: Types.ObjectId | string;
   row: number;
